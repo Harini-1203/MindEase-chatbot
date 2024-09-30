@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.frontpage{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+    font-size: 50px;
+    color: #efeee6;
+}
+.h3{
+    margin: 20px;;
+}
+.frontpage-Enter{
+    position: relative;
+    top:100px;
+    border:none;
+    padding: 15px;
+    font-size: 3vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255,0.5);   
+}
+.frontpage-Enter:hover{
+    background-color: #88AB8E;
+}
+
+/* login-page */
+
+
+
+
+/* navbar */
+nav{
+    display: flex;
+}
+
+
+
+
+
+.outerhome{
+    padding: 150px 0;
+    height: 90vh;
+    background-color: #FFE5E5;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+
+.two-kid-image{
+    width:400px
+}
+ 
+.graph-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.graph{
+    width:400px;
+}
+.graph-div h1{
+    padding-top: 50px;
+    
+}
+
+
+
+
+#therapist{
+    background-color: #ffffff;
+
+}
+
+#therapist h1{
+    font-size: 70px;
+    color: #1B4242;
+    padding: 50px 0 20px 50px;
+}
+#therapist h2{
+    color: #1B4242;
+    padding: 0 0 50px 50px;
+}
+
+.card-container{
+    padding: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffe0f3;
+}
+.card{
+    margin: 20px;
+}
