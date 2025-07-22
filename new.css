@@ -1,0 +1,67 @@
+.chat{
+    background-color: rgb(125, 148, 125);
+    height: 600vh;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    
+    font-family: 'Poppins', sans-serif;
+    border: solid white;
+}
+.heading{
+    color: white;
+    margin:20px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.chatbox{
+    background-color: white;
+    width:400px;
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+
+}
+img{
+    width: 15%;
+    border-radius: 50px;
+    display: inline;
+    margin: 20px;
+
+}
+input{
+    
+    font-size: 1.5em;
+    padding: 5px;
+    color: rgb(125, 148, 125);
+    border-radius: 10px;
+    border: solid rgb(128, 187, 128);
+    position: relative;
+    top:380px;
+    left: 20px;
+
+}
+span{
+    font-size: 2em;
+    font-weight: 900;
+    position: absolute;
+    top:110px;
+    
+}
+.h{
+    color: rgb(125, 148, 125);
+    padding-left: 2px ;
+}
+.fa-microphone{
+    font-size: 1.5em;
+    color:rgb(65, 107, 65);
+    position: relative;
+    top:380px;
+    left: 30px;
+}
